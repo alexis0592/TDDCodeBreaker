@@ -9,7 +9,7 @@ public class CodeBreakerTest {
 	public CodeBreaker codeBreaker;
 	public String resultado;
 
-	@Test
+	
 	public void ningunValorCoincide() {
 		codeBreaker = new CodeBreaker();
 		resultado = codeBreaker.comparar("3675");
